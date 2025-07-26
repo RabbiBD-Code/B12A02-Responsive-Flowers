@@ -169,6 +169,16 @@
 
 
 
+.badge{
+    background-image: url(./assets/trusted-badge.png);
+    position: absolute;
+    width: 280px;
+    margin-left: 430px;
+    margin-top: 90px;
+    filter: drop-shadow(-4, 10, 4, 0);
+}
+
+
 .flower-plants {
     display: flex;
     justify-content: space-between;
@@ -442,5 +452,12 @@
     .offer {
         font-weight: 700;
         font-size: 20px;
+    }
+
+
+
+
+    .badge{
+        display: none;
     }
 }
