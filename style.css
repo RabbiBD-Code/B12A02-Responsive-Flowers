@@ -166,16 +166,11 @@
     max-width: 100%;
 }
 
-
-
-
-.badge{
-    background-image: url(./assets/trusted-badge.png);
-    position: absolute;
+#trusted-badge{
+    position:absolute;
     width: 280px;
-    margin-left: 430px;
-    margin-top: 90px;
-    filter: drop-shadow(-4, 10, 4, 0);
+    margin-bottom: 440px;
+    margin-left: 360px;
 }
 
 
@@ -246,14 +241,22 @@
     text-align: center;
 }
 
-.offer {
+.offer-left {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
-.offer-big {
+
+
+.offer-right {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
+}
+   
+.shope-right{
+    font-size: 1.70rem;
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 .shope {
@@ -325,7 +328,7 @@
 
 
 .join-section input {
-    max-width: 600px;
+    max-width: 800px;
     width: 100%;
     padding: 16px 0px 16px 20px;
     color: rgba(0, 0, 0, 0.5);
@@ -433,7 +436,16 @@
 
     }
    
-
+.offer-right {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+   
+.shope-right{
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
     .offer-card {
         justify-content: center;
     }
@@ -454,7 +466,7 @@
         font-size: 20px;
     }
 
-    #badge {
+    #trusted-badge {
         display: none;
     }
 }
